@@ -1,0 +1,251 @@
+*{
+	margin: 0;paddding:0;
+	font-family:"Microsoft YaHei",宋体,"Arial","sans-serif";
+}
+body{
+	background-color: #111;
+	font-size: 14px;
+	min-width: 800px;
+	font-family: "微软雅黑";
+}
+.gem{
+	width: 90%;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	background-color: #111;
+}
+.width{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+.center-width{
+	display: block;
+	width: 600px;
+/*	margin: 0 30px;*/
+	min-width:400px;
+}
+@media(min-width: 1400px){
+	.center-width{
+		width: 800px;
+		}}
+img{
+	display: block;
+	width: 300px;
+	height: 400px;
+}
+/*网站头部分*/
+.bgcolor{
+	background-color: #111;
+}
+header{
+	/*width: 100%;*/
+	height: 60px;
+}
+nav{
+	width: 900px;
+	padding:0 25px;
+}
+
+nav img{
+	display: block;
+	height: 60px;
+	width: 150px;
+	float: left;
+	/*opacity: 0.6;
+	filter: alpha(opacity=60);/*针对ie8以及更早的版本*/*/
+}
+nav>ul{
+	text-align: right; 
+}
+nav>ul li{
+	display:inline-block;
+	width: 80px;
+	height: 60px;
+	line-height: 60px;
+	list-style: none;
+	padding-right: 10px;
+}
+nav>ul>li a{
+	text-decoration: none;
+	color: #fff;
+	font-size:12px;
+}
+
+/*body*/
+.body{
+	background-color: #ccc;
+	padding: 30px;
+	float: left;
+}
+.box{
+	background-color: #fff;
+	padding: 20px;
+/*	margin:0 auto;*/
+	width: 95%;
+	box-shadow: 3px 3px #999;
+}
+h2{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	margin:10px 0;	
+}
+h3{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	margin:10px 0;	
+}
+span,time{
+	font-size: 12px;
+	display: inline-block;
+	height: 25px;
+}
+
+p{
+	font-size: 14px;
+	font-family: "宋体";
+	line-height: 25px;	
+	text-indent: 2em;
+}
+/*part1*/
+.box2,.box3,.box4,.box5{
+	margin-top: 25px;
+}
+/*part2*/
+.box2>ul{
+	margin-top: 10px;
+}
+.box2>ul li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+/*part3*/
+h1{
+	font-size: 28px;
+	font-family: "微软雅黑";
+	margin:10px 0;
+}
+.box3>dl{
+	width:300px;
+	height: 450px;
+	border:1px solid #ccc;
+	padding:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	/*overflow: hidden;*/
+	padding-bottom: 10px;
+	text-align: center;
+}
+.box3>dl>dd span{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+/*part4*/
+.box4>ol{
+	font-weight: bold;margin: 10px 0;
+}
+.box4>p{
+	text-indent: 0;
+}
+.box4>table{
+	width: 100%;
+	height: 180px;
+	border-collapse: collapse;
+}
+.box4>table th{
+	color:#fff;
+}
+.box4>table tr:last-child{
+	background-color: #ddd;
+}
+
+/*part5*/
+.box5{
+	margin:30px 20px 20px 0px;
+	width: 350px;
+	line-height: 30px;
+	background-color: #fff;
+	padding: 20px;
+	float: left;
+	box-shadow: 3px 3px #999;
+}
+.box5 h3{
+	border-left: 3px solid #999;
+	padding-left: 10px;
+}
+.mail,.psw2{
+	margin-left: 0px;
+}
+.psw1{
+	margin-left:28px;
+}
+.sex+input{
+	margin-top: 40px;
+}
+.sex,.city,.love{
+	margin-left: 68px;
+}
+.tiny{
+	margin-left: 40px;
+	vertical-align: top;
+}
+textarea{
+	width: 60%;
+	height: 100px;
+	margin-bottom: 50px;
+	border: 1px solid #111;
+}
+.box5 form{
+	text-align: left;
+	line-height: 30px;
+}
+.box5>form span{
+	display: block;
+	color: #aaa;
+	margin-left: 0px;
+	padding-left: 10em;
+	/*margin-bottom: 5px;*/
+}
+
+.box5>form input:last-child{
+	display: block;
+	width: 95%;
+	height: 40px;
+	background-color:blue;
+	color:#fff;
+	border: 1px solid blue;
+	border-radius:10px;
+	margin-left: 10px;
+}
+
+.box5>form input[type="text"]{
+	width: 200px;
+	height: 20px;
+}
+
+
+/*copyright*/
+footer{
+	text-align: center;
+	background-color: #111;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 100%;
+	clear: both;
+}
+footer>p{
+	height:50px;
+	line-height: 50px;
+	font-size: 14px;
+	color:#fff;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>任务六：基础JavaScript练习（三）</title>
+		<style type="text/css">
+			.found{
+				background-color: #fff;
+				color: red;
+			}
+			textarea{
+				resize:none;
+			}
+			#container div{
+				display: inline-block;
+				float: left;
+				text-align: center;
+				font-size: 30px;
+				padding: 0 15px;
+				margin: 5px 5px;
+				height: 50px;
+				line-height: 50px;
+				background-color: #FF0000;
+				color: #FFFFFF;
+			}
+			.container{
+				overflow: auto;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<textarea rows="5" cols="20" placeholder="请输入数字并用不同符号间隔"></textarea>
+		<input type="button" id="insert" value="插入" />
+		<input type="text" id="keyWord">
+		<input type="button" id="search" value="查询" />
+		
+		<div id="container" class="container">
+			
+		</div>
+		<script src="task6.js"></script>
+	</body>
+</html>

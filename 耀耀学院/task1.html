@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>任务一，表单验证（一）</title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			form{
+				display: flex;
+				/*justify-content: space-around;*/
+				width: 50%;
+				height: 100px;
+				font-size: 24px;
+
+			}
+			label{
+				display: inline-block;
+				width: 20%;
+			/*
+			*/
+			}
+			.text{
+				display: inline-block;
+				width: 70%;
+				height: 50px;
+				line-height: 50px;
+				border:1px solid #ccc;
+				-webkit-border-radius:10px;
+				-moz-border-radius:10px;
+				border-radius: 10px;
+			}
+			.btn{
+				display: inline-block;
+				width: 20%;
+				height: 52px;
+				line-height: 52px;
+				color: #fff;
+				background-color: #00f;
+				-webkit-border-radius:10px;
+				-moz-border-radius:10px;
+				border-radius: 10px;
+				text-align: center;
+				font-weight: bold;
+				font-size: 24px;
+			}
+			span{
+				display: block;
+				font-size: 14px;
+				color: #ccc;
+				text-indent: 6em;
+			}
+		</style>		
+	</head>
+	<body>
+		<form method="get" action="#">
+			<label for="name1">名称</label>
+			<input type="text" class="text" id="name1">
+			<input type="button" class="btn" value="验证">
+			<span>必填，长度为4~16个字符</span>			
+		</form>
+		<script src="task1.js"></script>
+	</body>
+</html>

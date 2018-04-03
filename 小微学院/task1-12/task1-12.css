@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.table{
+	width: 400px;
+	text-align: center;
+	font-size: 18px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.table>thead>tr th{
+	background-color: #000;
+	color: #fff;
+	font-size: 24px;
+	padding: 5px;
+	text-align: left;
+}
+
+.table tr td{
+	padding: 5px;
+}
+
+/*.red{
+	color: #f00;
+}*/
+.table tfoot td{
+	font-size: 14px;
+	text-align: left;
+	padding-left:20px;
+}
+
+.table tbody tr:nth-child(odd){
+	background-color: #fff;
+}
+.table tbody tr:nth-child(even){
+	background-color: #ccc;
+}
+.table tbody tr:nth-child(-n+3){
+	color: #f00;
+}
+
+.div2{
+	text-align: center;
+	margin-top: 20px;
+}
+.div2 input:first-child{
+	width:100px;
+	height:20px;
+	margin-bottom:20px;
+}
+
+.div2 input:last-child{
+	width: 100px;
+	height: 20px;
+}
+.div2 input:last-of-type:focus{
+	width:200px;
+	height:30px;
+	border:1px solid #0055cc;
+	border-radius:5px;
+	-webkit-transition:width 1s linear;
+	-ms-transition:width 1s linear;
+	-moz-transition:width 1s linear;
+	-o-transition:width 1s linear;
+	transition:width 1s linear;
+	box-shadow:0px 0px 7px rgba(0,80,192,0.8);
+}
+
+
+.div3{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+#mycontent{
+	width:400px;
+	height:200px;
+	margin:0 auto;
+	position:relative;
+	background:green;
+	overflow: hidden;
+}
+#mycontent div>div:first-child{
+	position:absolute;
+	width:30px;
+	height:30px;
+	right:0px;
+	display:inline-block;
+	background:rgba(255,255,255,0.5);
+	text-align:center;
+	vertical-align: middle;
+	z-index:999;
+}
+#mycontent div>div:first-child a{
+	color:#fff;
+	font-weight: bold;
+	display:inline-block;
+	width:100%;
+	height:100%;
+	text-decoration:none;
+}
+#mycontent div>div:first-child:before{
+	content:' ';
+	height:100%;
+	visibility: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+#mycontent div[id="con1"] div:first-child{
+	bottom:0px;
+	right:70px;
+}
+#mycontent div[id="con2"] div:first-child{
+	bottom:0px;
+	right:35px;
+}
+#mycontent div[id="con3"] div:first-child{
+	bottom:0px;
+	right:0px;
+}
+#con1,#con2,#con3{
+	width:100%;
+	height:100%;
+}
+.con1,.con2,.con3{
+	height:100%;
+	width:100%;
+
+}
+/*.con1{
+	background:black;
+}*/
+.con2{
+	background:-moz-linear-gradient(left,green 50%,#00f 50%);
+	background:-webkit-gradient(linear,left,right,from(green),to(#00f));
+	background:-webkit-linear-gradient(left,green 50%,#00f 50%);
+	background:-o-linear-gradient(left,green 50%,#00f 50%);
+	background:linear-gradient(left,green 50%,#00f 50%);
+	
+}
+#con1,#con2,#con3{
+	height:0px;
+	overflow:hidden;
+}
+.con3{
+	background:blue;
+}
+#mycontent :target{
+	height:100%;
+	overflow:auto;
+	z-index:0;
+}
